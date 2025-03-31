@@ -6,9 +6,9 @@ phases:
       java: corretto17
 
   build:
-  commands:
-    - echo Running tests...
-    - mvn clean test
+    commands:
+      - echo Running tests...
+      - mvn clean test
 artifacts:
   files:
     - target/reports/**/*
